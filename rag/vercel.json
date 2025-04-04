@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "rag/rag/chatbot.py", 
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/rag/rag/chatbot.py"
+      }
+    ]
+  }
+  
