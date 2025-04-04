@@ -5,7 +5,7 @@
         "use": "@vercel/python"
       }
     ],
-    "rout
+    "routes": [
       {
         "src": "/(.*)",
         "dest": "/rag/rag/chatbot.py"
